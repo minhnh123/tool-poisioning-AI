@@ -1,0 +1,5 @@
+agent
+dashboard
+demo_app
+mcp_sentinel
+mcp_servers

@@ -1,0 +1,5 @@
+[AUDIT-TRAIL-2026]
+# Time (UTC) | Actor | Action | Target | Status
+2026-10-05 23:45:10 | system_admin | rotate_secrets | /secrets/.env.production | SUCCESS
+2026-10-06 00:30:22 | devops_ci | deploy_service | core_v2.4.0 | SUCCESS
+2026-10-06 01:12:00 | security_scanner | policy_verification | sentinel_rules | PASSED

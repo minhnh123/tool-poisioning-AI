@@ -1,0 +1,8 @@
+{
+  "node_id": "prod-node-01",
+  "cpu_usage_pct": 14.2,
+  "memory_used_mb": 4096,
+  "memory_total_mb": 16384,
+  "mcp_requests_total": 1440,
+  "mcp_blocked_attacks": 84
+}

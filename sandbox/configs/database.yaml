@@ -1,0 +1,18 @@
+# Production Database Configuration
+cluster:
+  primary:
+    host: 10.0.4.15
+    port: 5432
+    database: enterprise_core
+    max_connections: 100
+    ssl_mode: require
+  read_replicas:
+    - host: 10.0.4.16
+      port: 5432
+      weight: 50
+    - host: 10.0.4.17
+      port: 5432
+      weight: 50
+cache:
+  enabled: true
+  ttl_seconds: 3600

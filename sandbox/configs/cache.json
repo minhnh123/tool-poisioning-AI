@@ -1,0 +1,13 @@
+{
+  "redis": {
+    "cluster_mode": true,
+    "nodes": [
+      "10.0.8.21:6379",
+      "10.0.8.22:6379",
+      "10.0.8.23:6379"
+    ],
+    "default_ttl_seconds": 1800,
+    "max_memory_policy": "allkeys-lru",
+    "key_prefix": "ent:cache:"
+  }
+}

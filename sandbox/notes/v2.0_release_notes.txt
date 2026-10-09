@@ -1,0 +1,2 @@
+MCP Sentinel v2.0 Official Release Notes
+Security Gateway & Multi-Layer Protocol Defense.

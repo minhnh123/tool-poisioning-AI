@@ -1,0 +1,5 @@
+2026-10-06 01:14:02.104 [INFO] core.server: Worker process 4820 started on 0.0.0.0:8080
+2026-10-06 01:15:33.412 [INFO] http.request: GET /health 200 OK (0.84ms) client=10.0.1.5
+2026-10-06 01:18:20.918 [WARN] auth.service: Failed login attempt for user 'ops_admin' from 192.168.1.104
+2026-10-06 01:22:45.330 [INFO] mcp.gateway: Intercepted tool call 'read_file' -> Approved by Sentinel
+2026-10-06 01:25:01.002 [INFO] http.request: GET /api/v1/status 200 OK (1.12ms) client=10.0.2.14
